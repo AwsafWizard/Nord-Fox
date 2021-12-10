@@ -1,0 +1,106 @@
+
+html{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0;
+    background-color: #16232C;
+
+}
+
+body {
+
+    background: #16232C;
+    color: #16232C;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_box {
+    display: flex;
+    background: #222D32;
+    width: 500px;
+    padding: 0px;
+    margin-bottom: 40px;
+    border-radius: 10px 10px 10px 10px;
+    align-self: center;
+    height: 60px;
+}
+
+.input_box {
+    border: none;
+    outline: none;
+    background: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 470px;
+    color: #8FBCBB;
+    font-size: 18px;
+    border-radius: 0px 0px 0px 0px;
+    height: 60px;
+    text-align: center;
+}
+
+.image {
+    text-align: center;
+    padding-top: 7px;
+}
+
+.bg {
+    padding: 40px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+}
+
+.pushable {
+    align-self: center;
+    background: #121C23;
+    width: 200;
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+}
+
+
+.front {
+    align-self: center;
+    display: block;
+    width: 60px;
+    height: 50px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: #121C23;
+    color: white;
+}
+
+.pushable:hover .front{
+    background-color: rgb(27, 108, 110);
+}
+
+.pushable:active .front {
+    transform: translateY(4px);
+}
